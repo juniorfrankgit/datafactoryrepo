@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "products.csv"
+				"fileName": "products.csv",
+				"folderPath": "temp"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",

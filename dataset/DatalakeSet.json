@@ -9,7 +9,10 @@
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobFSLocation"
+				"type": "AzureBlobFSLocation",
+				"fileName": "products.csv",
+				"folderPath": "b",
+				"fileSystem": "a"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
